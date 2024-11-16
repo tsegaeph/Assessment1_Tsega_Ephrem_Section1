@@ -1,0 +1,98 @@
+body{
+    background-color: rgba(32, 98, 116, 0.268);
+    margin: 0;
+}
+header {
+    background-color: #d9eed9;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    color:rgb(32, 98, 116);
+    font-size: 3rem;
+}
+h2 {
+    margin-left: 90px;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(32, 98, 116) ;
+}
+article h2{
+    font-size: 25px;
+    margin: auto;
+    margin-top: 10px;
+    color: black;
+}
+nav {
+    text-align: center; 
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline-block;
+    margin: 0 30px;
+}
+nav a {
+    text-decoration: none;
+    color: #4caf50;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+nav a:hover {
+    background-color: rgba(75, 152, 173, 0.378); 
+    color: #333;
+} 
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product {
+    width: 300px;
+    margin: 50px;
+    border: 1px solid #fffefe;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: rgb(237, 231, 231);
+}
+.product img {
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.price{
+    font-size: 25px;
+    color: green;
+}
+footer{
+    background-color: #124314;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    color: white;
+}
+@media (max-width: 768px) {
+
+    .product {
+      width: 100%;
+    }
+    nav a {
+        padding: 10px 10px;
+  }
+}
